@@ -1,2 +1,2 @@
 # Copy-path-context-menu
-AutoHotkey app which adds context menu items to open folders in Command Prompt
+AutoHotkey app which adds a context menu item to copy a folders path
