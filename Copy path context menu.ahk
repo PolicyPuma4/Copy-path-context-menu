@@ -87,7 +87,7 @@ if not Argument
     RegWrite, REG_SZ, HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\shell\%AppName%, Icon, %ExecutablePath%
     RegWrite, REG_SZ, HKEY_CURRENT_USER\SOFTWARE\Classes\Directory\shell\%AppName%\command,, "%ExecutablePath%" /copypath "`%V"
 
-    RegWrite, REG_SZ, HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\%AppName%,, Copy folder path
+    RegWrite, REG_SZ, HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\%AppName%,, Copy path
     RegWrite, REG_SZ, HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\%AppName%, Icon, %ExecutablePath%
     RegWrite, REG_SZ, HKEY_CURRENT_USER\SOFTWARE\Classes\*\shell\%AppName%\command,, "%ExecutablePath%" /copypath "`%V"
 
